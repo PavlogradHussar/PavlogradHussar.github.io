@@ -1,9 +1,109 @@
+<!DOCTYPE html>
 <html>
+    <head>
+        <title>Practice Website</title>
+        <link href="stylesheet.css" rel="stylesheet">
+    </head>
+    <body>
+            <header>
+                <nav>
 
-<body>
-  <h1>Philip Eames</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
+                </nav>
+                <h1>Here is The Practice Site</h1>
+            </header>
+        <main>
+                <h2>Here are some things this site <em>will</em> cover</h2>
+                    <ul>
+                        <li>Basic <a href="/Users/philipeames/codecaademy/practice/resources/Felix_Yusupov_painting.jpeg" target="_blank">HTML</a></li>
+                        <li>Basic <a href="./resources/Felix_Yusupov_painting.jpeg" target="_blank">CSS</a></li>
+                        <li>Basic Javascript</li>
+                    </ul>
 
+                <h2>Here are some things this site <em>won't</em> cover</h2>
+                    <ol>
+                        <li>How to cook</li>
+                        <li>How to impress women </li>
+                        <li>How to Juggle</li>
+                    </ol>
+                
+                <!--
+                    This part of the page demonstrates the painter's skill
+                -->    
+                
+                
+                    <h2>Here is a video about <br> 
+                        <strong>Ilya Repin</strong></h2>
+                    <iframe width="320" height="315" src="https://www.youtube.com/embed/i3yZAqheggw?si=D8MOTQ3oJaMNI6FK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                    </iframe>
+            
+                    <!--Should I use an h2 elements WITHIN the figure section or outside of it?-->
+            <figure>
+                    <h2>Here is some of his art</h2>
+                    <img id="painting" src="resources/Ilya_Repin_Unexpected_visitors.jpg">
+                    <figcaption>If you'd like to know more about him, click <a href="#info">here</a>
+                    </figcaption>
+            </figure>
+
+                <!-- This is a part of the page that gives some background to Ilya Repin-->
+            
+            <section>
+                <h2 id="info">Some information on Ilya Repin</h2>
+                <article>
+                    <p style="color:green">Ilya Yefimovich Repin  (1844 - 1930) was a Russian painter. <br>
+                        He became one of the most renowned artists in Russia in the 19th century. <br>
+                    <figure>
+                            <img id="repin" src="resources/Repin_photo.jpeg">
+                            <figcaption>To learn more about <em>Ilya Repin</em>, <a href="https://en.wikipedia.org/wiki/Ilya_Repin" target="_blank">click here</a> </figcaption> 
+                    </p>
+                    <aside>If you want to paint like Repin, buy these brushes!</aside>
+                </article>
+            </section>
+
+                <h2>Here is a table with some key dates</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Years</th>
+                            <th>Activity</th>
+                            <th>Random</th>
+                        </tr>
+                    </thead>
+
+                    <tbdoy>
+                    <tr>
+                        <th rowspan="3">Stage of Life</th>
+                        <td colspan="2">y</td>
+                        <td>d</td>
+                    </tr>
+                    <tr>
+                        <td>c</td>
+                        <td>z</td>
+                        <td>x</td>
+                    </tr>
+                    </tbdoy>
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td>f</td>
+                            <td>u</td>
+                            <td>k</td>
+                        </tr>
+                    </tfoot>
+                </table>
+
+                <h2>An expert talking about Ilya Repin</h2>
+                <audio src="./resources/Ilya Repin voice.m4a" controls></audio>
+
+
+
+
+
+        </main>
+
+    
+    <footer>
+
+    </footer>
+    </body>
 </html>
