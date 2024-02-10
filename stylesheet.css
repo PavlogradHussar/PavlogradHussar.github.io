@@ -1,0 +1,17 @@
+h1 {
+    color: red;
+}
+
+h2 {
+    color: blue;
+}
+
+#painting {
+    height: 25pc;
+    width: 25pc;
+}
+
+#repin {
+    height: 25pc;
+    width: 20pc;
+}
